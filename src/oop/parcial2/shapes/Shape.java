@@ -1,0 +1,15 @@
+package oop.parcial2.shapes;
+
+public abstract class Shape {
+    private String name;
+    public Shape(String name){
+        this.name = name;
+    }
+    public abstract double getArea();
+    public abstract double getPerimeter();
+    public abstract int getSidesCount();
+    public String getName(){
+        return name;
+    }
+    public abstract String draw();
+}
