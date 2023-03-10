@@ -18,7 +18,7 @@ public class Main {
 
 
         for(Shape shape: shapes){
-            System.out.println("Shape: " + shape.getName() + ": " + shape.draw()); //with shape print something related to the actual shape, for example ○ ▲ ■ █
+            System.out.println("Shape: " + shape.getName() + ": " + shape); //with shape print something related to the actual shape, for example ○ ▲ ■ █
             System.out.println("Real class name: " + shape.getClass().getName());
             System.out.println("Sides count: " + shape.getSidesCount());
             System.out.println("Perimeter: " + shape.getPerimeter());

@@ -5,6 +5,9 @@ public class Square extends Shape {
     public Square() {
         super("Cuadrado");
     }
+    public String toString(){
+        return "■";
+    }
 
     public Square(double side) {
         this();
@@ -29,7 +32,5 @@ public class Square extends Shape {
     public int getSidesCount(){
         return 4;
     }
-    public String draw(){
-        return "■";
-    }
+
 }

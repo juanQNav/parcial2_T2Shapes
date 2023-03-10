@@ -7,6 +7,9 @@ public class Triangle extends Shape{
     public Triangle(){
         super("Triangulo");
     }
+    public String toString(){
+        return "▲";
+    }
 
     public Triangle(double base, double height) {
         this();
@@ -38,8 +41,5 @@ public class Triangle extends Shape{
     }
     public int getSidesCount(){
         return 3;
-    }
-    public String draw(){
-        return "▲";
     }
 }

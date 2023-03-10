@@ -7,6 +7,9 @@ public class Rectangle extends Shape {
     public Rectangle() {
         super("Rectangulo");
     }
+    public String toString(){
+        return "█";
+    }
 
     public Rectangle( double base, double height) {
         this();
@@ -38,8 +41,5 @@ public class Rectangle extends Shape {
     }
     public int getSidesCount(){
         return 4;
-    }
-    public String draw(){
-        return "█";
     }
 }

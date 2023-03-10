@@ -11,5 +11,4 @@ public abstract class Shape {
     public String getName(){
         return name;
     }
-    public abstract String draw();
 }
